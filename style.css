@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
@@ -11,33 +11,19 @@ body {
     text-align: center;
   }
   
-  nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
+  nav {
+    margin-top: 10px;
   }
   
-  nav ul li {
-    margin: 0 10px;
-  }
-  
-  nav ul li a {
+  nav a {
     color: white;
+    margin: 0 10px;
     text-decoration: none;
-    font-weight: bold;
   }
   
-  .professions {
+  .professions, .gallery, .projects {
     display: flex;
     justify-content: space-around;
-    padding: 20px;
-  }
-  
-  .professions div {
-    text-align: center;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
+    margin: 20px;
   }
   
