@@ -1,16 +1,43 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
   }
+  
   header {
-    background-color: #4CAF50;
+    background: linear-gradient(90deg, #4CAF50, #2196F3);
     color: white;
     padding: 20px;
     text-align: center;
   }
-  footer {
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .professions {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .professions div {
     text-align: center;
-    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
   }
   
